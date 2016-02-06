@@ -1,0 +1,44 @@
+body {
+  background: #000000;
+  font: 18px normal Helvetica;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 35px 15px;
+}
+
+p + p {
+  display: none;
+}
+
+#tabs  {
+  list-style: none;
+}
+
+#tabs li {
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+
+#tabs a {
+  color: #E86F0C;
+  font-size: 14px;
+  background: #FFEDA2;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#tabs .active {
+  background: #3cff00;
+  color: #ffffff;
+}
+
+fieldset {
+  border: none;
+}
